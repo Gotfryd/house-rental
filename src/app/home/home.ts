@@ -15,6 +15,5 @@ export class Home {
   housingService: Housing = inject(Housing);
   constructor() {
     this.housingLocationList = this.housingService.getAllHousingLocations();
-    alert(this.housingLocationList.length);
   }
 }
